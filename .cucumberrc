@@ -1,5 +1,5 @@
---require steps/todo.steps.js
---require steps/veahaldus.steps.js
+--import steps/todo.steps.js
+--import steps/veahaldus.steps.js
 --format progress-bar
 --format html:reports/cucumber-report.html
 --format-options '{"snippetInterface":"async-await"}'

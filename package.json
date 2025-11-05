@@ -7,7 +7,7 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:bdd": "npx cucumber-js --require steps/todo.steps.js --require steps/veahaldus.steps.js features",
+    "test:bdd": "npx cucumber-js --import steps/todo.steps.js --import steps/veahaldus.steps.js features",
     "test:all": "npm run test && npm run test:bdd",
     "ci": "npm run test:all"
   },
